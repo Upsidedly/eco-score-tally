@@ -11,8 +11,9 @@ export function Formula() {
 \\text{Match Score} =
 \\left\\{
   \\begin{array}{l}
+  \\left[
     \\text{Barrier Points} \\\\
-    +\\ \\left( \\text{Biodiversity Points} \\times \\text{Distribution Factor} \\right) \\\\
+    +\\ \\left( \\text{Biodiversity Points} \\times \\text{Distribution Factor} \\right)     \\right] \\\\
     \\times\\ \\text{Protection Multiplier}
   \\end{array}
 \\right\\} 
@@ -26,8 +27,9 @@ export function Formula() {
 \\text{Match Score} = \\\\
 \\left\\{
   \\begin{array}{l}
+    \\left[
     \\text{Barrier Points} \\\\
-    +\\ \\left( \\text{Biodiversity Points} \\times \\text{Distribution Factor} \\right) \\\\
+    +\\ \\left( \\text{Biodiversity Points} \\times \\text{Distribution Factor} \\right) \\right] \\\\
     \\times\\ \\text{Protection Multiplier}
   \\end{array}
 \\right\\} \\\\
