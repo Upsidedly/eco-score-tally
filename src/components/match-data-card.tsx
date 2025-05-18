@@ -2,8 +2,7 @@ import { Label } from "@radix-ui/react-label";
 import NumberInput from "./number-input";
 import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
 import { Checkbox } from "./ui/checkbox";
-import { Dispatch, SetStateAction, useId } from "react";
-import { MatchData } from "@/lib/points";
+import { useId } from "react";
 import { MatchDataProps } from '@/lib/utils'
 
 export function MatchDataCard({ matchData, setMatchData, useOneLevel }: MatchDataProps & { useOneLevel: boolean }) {

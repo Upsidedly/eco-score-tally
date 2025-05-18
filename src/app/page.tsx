@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { calculatePoints, MatchData } from "@/lib/points";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useId, useState } from "react";
+import { useEffect, useState } from "react";
 import Twemoji from "react-twemoji";
 
 const defaults: MatchData = {
@@ -19,7 +19,6 @@ const defaults: MatchData = {
 };
 
 export default function Home() {
-  const id = useId();
   const [matchData, setMatchData] = useState<MatchData>(defaults);
   const [points, setPoints] = useState<number>()
 
