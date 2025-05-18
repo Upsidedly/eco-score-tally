@@ -54,7 +54,7 @@ export default function Home() {
         </Button>
       </div>
       <h2 className="text-2xl mt-4 w-full text-center"><span className="border border-muted bg-gray-950 p-3 font-mono text-xl">{points ? Math.round(points) : 'N/A'}</span> Points</h2>
-      <p className="text-sm text-gray-400">(Rough estimate before game manual)</p>
+      <p className="text-sm mt-2 text-gray-400 w-full text-center">(Rough estimate before game manual)</p>
       <Twemoji options={{ className: "inline h-[1.5em] w-[1.5em] align-middle" }} noWrapper={true}>
         <p className="fixed bottom-2 right-2 text-gray-500">by Team Jamaica 🇯🇲</p>
       </Twemoji>
